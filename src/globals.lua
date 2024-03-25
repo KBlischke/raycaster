@@ -22,7 +22,7 @@ PLAYER_ENHANCED_SPEED = 160         -- enhanced movement speed of player (in pix
 PLAYER_BASE_ROTATION = 0.03         -- basic rotation speed of player (in radiants)
 PLAYER_ENHANCED_ROTATION = 0.05     -- enhanced rotation speed of player (in radiants)
 PLAYER_VIEW = 60                    -- view width of player (in degrees)
-PLAYER_RESOLUTION = 300             -- number of player's raycaster's rays
+PLAYER_RESOLUTION = 1000            -- number of player's raycaster's rays
 
 VIEW_HEIGHT = 64                    -- basic view height of camera
 

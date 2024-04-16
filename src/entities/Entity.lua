@@ -12,7 +12,7 @@ function Entity:init(def, rgb)
     )
     self.a = def.a            -- angle of entity (in radiants)
 
-    self.radius = def.radius -- radius of entity (in pixels)
+    self.radius = def.radius  -- radius of entity (in pixels)
 
     self.rgb = rgb            -- red RGB values of entity
 

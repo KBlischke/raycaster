@@ -2,7 +2,7 @@ Raycaster = Class{}
 
 function Raycaster:init(def)
     self.entity = def.entity                     -- entity to hold on to
-    self.level = def.level                           -- level representation to interact with
+    self.level = def.level                       -- level representation to interact with
 
     self.x = self.entity.x                       -- x-position of raycaster (in pixels)
     self.y = self.entity.y                       -- y-position of raycaster (in pixels)
